@@ -1,0 +1,17 @@
+.capimg
+{
+    top: 0;
+    left: 12px;
+    right: 12px;
+    bottom: 0;
+    background-color: #1abc9ce6;
+    opacity: 0;
+    transition: 0.7s all ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.porimg:hover .capimg
+{
+    opacity: 1;
+}
